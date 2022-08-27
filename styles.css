@@ -14,8 +14,30 @@ body {
 }
 
 .trescard {
-    height: 100px;
-    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 150px;
+    width: 300px;
     border: 1px solid black;
     border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+}
+
+.tres-icon {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 25px;
+    background-image: url("https://th.bing.com/th/id/R.e9f5edd1b0d682bed17d922857d9b60c?rik=u7Gko3Ku3igfbQ&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.tres-title {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    left: 85px;
+    bottom: 60px;
 }
