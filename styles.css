@@ -81,3 +81,10 @@ a {
 }
 
 .rainbow { background-image: url("https://th.bing.com/th/id/R.e9f5edd1b0d682bed17d922857d9b60c?rik=u7Gko3Ku3igfbQ&pid=ImgRaw&r=0"); }
+.message { background-image: url("https://th.bing.com/th/id/R.a00a18e0eb995c07e17a28dc7fee06e3?rik=5f%2bhnxqJUtlwDA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_419896.png&ehk=uSQmp5KVRKyrSg2mfX%2f6DQRkeiJyTpt6N5NIUjOiXCk%3d&risl=&pid=ImgRaw&r=0"); }
+
+@media (max-width: 960px) {
+    .trescards {
+        flex-direction: column;
+    }
+}
