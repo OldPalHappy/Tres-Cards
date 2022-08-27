@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.trescards {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trescard {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
