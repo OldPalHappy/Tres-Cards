@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
 .trescards {
     display: flex;
     flex-direction: row;
@@ -17,9 +22,14 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     height: 150px;
     width: 300px;
-    border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(248, 248, 248);
+    box-shadow: 2px 2px 5px darkgray;
+}
+
+.trescard:hover {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 3px 3px 5px darkgray;
 }
 
 .tres-icon {
@@ -30,7 +40,6 @@ body {
     width: 75px;
     background-color: white;
     border-radius: 25px;
-    background-image: url("https://th.bing.com/th/id/R.e9f5edd1b0d682bed17d922857d9b60c?rik=u7Gko3Ku3igfbQ&pid=ImgRaw&r=0");
     background-size: cover;
 }
 
@@ -41,3 +50,34 @@ body {
     left: 85px;
     bottom: 60px;
 }
+
+.tres-description {
+    white-space: pre;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: darkgrey;
+    left: 85px;
+    bottom: 50px;
+}
+
+.tres-footer {
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 20%;
+    bottom: 15%;
+    left: 0%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tres-footer > div {
+    font-size: x-large;
+    color: black;
+}
+
+.rainbow { background-image: url("https://th.bing.com/th/id/R.e9f5edd1b0d682bed17d922857d9b60c?rik=u7Gko3Ku3igfbQ&pid=ImgRaw&r=0"); }
